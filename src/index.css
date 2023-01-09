@@ -1,3 +1,128 @@
 /* =================================
            Media Queries 
 ==================================*/
+
+@media (max-width: 600px) {
+    .mainTitle {
+        font-size: 2rem;
+    }
+
+    .logo-icon {
+        width: 25%;
+    }
+
+    .mobileMenu,
+    .icon-close,
+    .navLink,
+    .mobile-socials {
+        display: block;
+    }
+
+    .icon-close {
+        margin-bottom: 8em;
+    }
+
+    nav {
+        height: 100vh;
+        width: 0%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: var(--brown);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .navlinks {
+        transition: 0.3s;
+        position: absolute;
+        top: 5%;
+        padding: 0 2em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navLink {
+        margin-bottom: 1.5em;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    header {
+        left: 0;
+    }
+
+    .coverContent,
+    .about-info, main,
+    footer {
+        flex-direction: column;
+    }
+
+    .Bio {
+        order: 2;
+    }
+
+    .coverP, .cover-info,
+    main, .intro, header, 
+    .Bio, .aboutImg, .slide, 
+    .content, form {
+        width: 100%;
+    }
+
+    .contact-data {
+        text-align: left;
+        width: 95%;
+    }
+
+    .contact-data h2 {
+        text-align: center;
+    }
+
+    .coverP {
+        height: 35vh;
+        margin-bottom: 1em;
+    }
+
+   .tagBox, .socials {
+    display: none;
+   }
+
+    .coverImg {
+        width: 70%;
+    }
+
+    .humor {
+        width: 70%;
+    }
+
+    .navLink,
+    .mobile-socials {
+        display: block;
+    }
+
+    .p-img img {
+        height: 150px;
+    }
+
+    .mobile-socials {
+        padding: 1em;
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+    footer {
+        margin-top: 3em;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 920px) {
+    .tagBox {
+        height: 50vh;
+    }
+}

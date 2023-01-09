@@ -3,7 +3,7 @@ export default [
         "id": 1,
         "img": "./Advice-generator.png",
         "title": "Advice Generator Application",
-        "description": "This app generates random advice from the adviceslip API with a click event. Built with HTML, CSS, REST API and JavaScript.",
+        "description": "This app generates random advice from the adviceslip API. Built with HTML, CSS, REST API and JavaScript.",
         "link": "https://github.com/Khemmie-Ray/Advice-generator-app.git",
         "livelink": "https://khemmie-ray.github.io/Advice-generator-app/"
     },

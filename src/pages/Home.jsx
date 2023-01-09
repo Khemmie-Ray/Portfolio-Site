@@ -4,9 +4,7 @@ import Typewriter from "typewriter-effect"
 function Home() {
     return (
         <main className="mainContent">
-         <Sidebar />
-        <div className="content">
-            <div className="intro">
+        <div className="content intro">
             <h1>Hello,</h1>
             <p>I am Oluwakemi Atoyebi - a Frontend developer and a Web3 enthusiast.</p>
             <p>Things that I do: </p>
@@ -17,7 +15,6 @@ function Home() {
                         loop: true,
                     }}
                 /></p>
-            </div>
         </div>
     </main>
     )

@@ -11,7 +11,7 @@ function CoverPage(props) {
                 <div className="coverP">
                 </div>
                     <div className="cover-info">
-                    <img src={coverAvatar} alt="" className="bioImg"/>
+                    <img src={coverAvatar} alt="" className="coverImg"/>
                     <h3 className="f-name">Oluwakemi Atoyebi</h3>
                     <p className="humor">2006 Times Magazine Person of the Year😂😂.</p>
                     <button onClick={props.handleCurrentPage} className="switchBtn">Click to explore</button>

@@ -8,6 +8,10 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import Header from './components/Header'
 import CoverPage from './components/CoverPage'
+import Sidebar from './components/Sidebar'
+import github from "./assets/Github.png"
+import linkedin from "./assets/Linkedin.png"
+import twitter from "./assets/Vector.png"
 
 function App() {
   const date = new Date()
@@ -33,7 +37,8 @@ function App() {
     {currentPage.explore && <CoverPage handleCurrentPage={switchPage} />}
    {currentPage.mainPage && <div className="container">
     <Header />
-    
+      <Sidebar />
+      
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
@@ -42,6 +47,11 @@ function App() {
       </Routes>
 
       <footer>
+      <div className="mobile-socials">
+            <a href="https://twitter.com/Haramide" target="_blank"><img src={twitter} alt="" className="icons"/></a>
+            <a href="https://www.linkedin.com/in/oluwakemi-atoyebi" target="_blank"><img src={linkedin} alt="" className="icons"/></a>
+            <a href="https://github.com/Khemmie-Ray" target="_blank"><img src={github} alt="" className="icons"/></a>
+        </div>
         <p>&copy; Khemmie-Ray <span>{year}</span></p>
       </footer>
     </div>}
