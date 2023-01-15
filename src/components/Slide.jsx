@@ -15,8 +15,8 @@ function Slide(props) {
             <div className="p-info">
                 <h3 className="p-title">{currentIndex.title}</h3>
                 <p>{currentIndex.description}</p>
-                <a href={currentIndex.link}>Github URL</a>
-                <a href={currentIndex.livelink}>Livesite</a>
+                <a href={currentIndex.link} target="_blank">Github URL</a>
+                <a href={currentIndex.livelink} target="_blank">Livesite</a>
             </div>
         </div>
 

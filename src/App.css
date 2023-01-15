@@ -30,7 +30,8 @@ body {
 ==================================*/
 .navLink, .p-info a, h2,
 .switchBtn, .f-name, h3,
-.resume, .p-title, .btn {
+.resume, .p-title, .btn,
+.mailLink {
   color: var(--white);
   font-family: 'Playfair Display', serif; 
   font-weight: 700;
