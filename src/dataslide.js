@@ -1,11 +1,11 @@
 export default [
     {
         "id": 1,
-        "img": "./Advice-generator.png",
-        "title": "Advice Generator Application",
-        "description": "This app generates random advice from the adviceslip API. Built with HTML, CSS, REST API and JavaScript.",
-        "link": "https://github.com/Khemmie-Ray/Advice-generator-app.git",
-        "livelink": "https://khemmie-ray.github.io/Advice-generator-app/"
+        "img": "./Room-page-slider.png",
+        "title": "Room Homepage Slider",
+        "description": "A responsive furniture store landing page with slider. Built with HTML, CSS and JavaScript.",
+        "link": "https://github.com/Khemmie-Ray/Room-homepage-slider.git",
+        "livelink": "https://room-homepage-slider.netlify.app/"
     },
     {   
         "id": 2,
@@ -17,14 +17,22 @@ export default [
     },
     {
         "id": 3,
-        "img": "./sunnyside.png",
-        "title": "Sunnyside Landing Page",
-        "description": "A responsive and interactive landing page. Built with HTML, CSS flexbox and JavaScript.",
-        "link": "https://github.com/Khemmie-Ray/Sunnyside-agency-landing-page.git",
-        "livelink": "https://khemmie-ray.github.io/Sunnyside-agency-landing-page/"
+        "img": "./Metamask-connect.png",
+        "title": "A Mini DApp",
+        "description": "A mini decentralized application that allows users connect to their Metamask wallet and view their balance and address from a frontend interface. Built with React, Ether and CSS.",
+        "link": "https://github.com/Khemmie-Ray/Connect-metamask-dapp.git",
+        "livelink": "https://eth-button-connect-dapp.netlify.app/"
+    },
+    {   
+        "id": 4,
+        "img": "./Personal-dashboard.png",
+        "title": "Personal Dashboard",
+        "description": "This is a responsive personal dashboard that can be added as a chrome extension. Built with APIs, HTML, CSS and JavaScript.",
+        "link": "https://github.com/Khemmie-Ray/Social-media-dashboard-with-theme-toggle.git",
+        "livelink": "https://pharmease-application.netlify.app/"
     },
     {
-        "id": 4,
+        "id": 5,
         "img": "./Loopstudios.png",
         "title": "Loopstudios Landing Page",
         "description": "A responsive and interactive landing page. Built with HTML, CSS flexbox and JavaScript.",
@@ -32,11 +40,11 @@ export default [
         "livelink": "https://khemmie-ray.github.io/Loopstudios-landing-page/"
     },
     {
-        "id": 5,
-        "img": "./Newspage.png",
-        "title": "News Homepage",
-        "description": "A responsive and interactive landing page. Built with HTML, CSS flexbox and JavaScript.",
-        "link": "https://github.com/Khemmie-Ray/News-homepage.git",
-        "livelink": "https://khemmie-ray.github.io/News-homepage/"
+        "id": 6,
+        "img": "./Pharmease.png",
+        "title": "PharmEase Application",
+        "description": "A cross-functional team capstone project, that seeks to help Pharmacists in West Africa automate their work process. Built with React, Bootstrap, CSS and Fakers.js",
+        "link": "https://github.com/Khemmie-Ray/PharmEase-application.git",
+        "livelink": "https://pharmease-application.netlify.app/"
     }
 ]

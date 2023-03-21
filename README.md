@@ -15,12 +15,18 @@ A personal portfolio site to showcase my skills, past projects and experiences a
 * React Hooks
 * Figma
 
+## Screenshots
+
+![Screenshot](./src/assets/Screenshot1.png)
+![Screenshot](./src/assets/Screenshot2.png)
 
 ## Links
 
 [Livesite](https://oluwakemi-atoyebi-portfolio.netlify.app/)
 
-[Design]()
+[Design](https://www.figma.com/file/25LLwl1u8l89fmBZ2xQVdf/Portfolio-site?node-id=0%3A1&t=3qKm82P4mm06HnzU-1)
+
+[Github-URL](https://github.com/Khemmie-Ray/Portfolio-Site.git)
 
 ## Author
 

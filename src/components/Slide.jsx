@@ -23,7 +23,7 @@ function Slide(props) {
         function handlePrev() {
             setIndex(prev => { 
                 if(prev === 0) {
-                return  prev = 4
+                return  prev = 5
                 }
                 return prev - 1
             })
@@ -31,7 +31,7 @@ function Slide(props) {
 
         function handleNext() {
             setIndex(prev => { 
-                if(prev === 4) {
+                if(prev === 5) {
                 return  prev = 0
                 }
                 return prev + 1

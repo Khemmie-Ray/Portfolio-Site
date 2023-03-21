@@ -82,18 +82,14 @@ h1 ~ p {
   justify-content: center;
 }
 
-.switchBtn, h2 {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.btn, .resume {
+.btn, .switchBtn, .resume {
   font-size: 1.2rem;
 }
 
 h2 {
   font-size: 2rem;
   margin-bottom: 0;
+  font-weight: 700;
 }
 
 /* =================================
