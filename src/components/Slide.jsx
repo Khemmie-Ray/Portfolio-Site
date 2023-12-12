@@ -3,7 +3,7 @@ import dataslide from "../dataslide"
 import arrowLeft from "../assets/arrow-left-s-fill.png"
 import arrowRight from "../assets/arrow-right-s-fill.png"
 
-function Slide(props) {
+function Slide() {
     const [index, setIndex] = useState(0)
 
     let currentIndex = dataslide[index]
@@ -23,7 +23,7 @@ function Slide(props) {
         function handlePrev() {
             setIndex(prev => { 
                 if(prev === 0) {
-                return  prev = 5
+                return  prev = dataslide.length - 1
                 }
                 return prev - 1
             })
@@ -31,7 +31,7 @@ function Slide(props) {
 
         function handleNext() {
             setIndex(prev => { 
-                if(prev === 5) {
+                if(prev === dataslide.length - 1) {
                 return  prev = 0
                 }
                 return prev + 1

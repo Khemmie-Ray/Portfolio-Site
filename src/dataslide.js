@@ -3,9 +3,9 @@ export default [
         "id": 1,
         "img": "./Room-page-slider.png",
         "title": "Room Homepage Slider",
-        "description": "A responsive furniture store landing page with slider. Built with HTML, CSS and JavaScript.",
-        "link": "https://github.com/Khemmie-Ray/Room-homepage-slider.git",
-        "livelink": "https://room-homepage-slider.netlify.app/"
+        "description": "A responsive furniture store landing page with slider. Built with React and TailwindCSS.",
+        "link": "https://github.com/Khemmie-Ray/Room-slider-homepage.git",
+        "livelink": "https://room-slider-homepage.vercel.app/"
     },
     {   
         "id": 2,
@@ -33,18 +33,10 @@ export default [
     },
     {
         "id": 5,
-        "img": "./Loopstudios.png",
-        "title": "Loopstudios Landing Page",
-        "description": "A responsive and interactive landing page. Built with HTML, CSS flexbox and JavaScript.",
-        "link": "https://github.com/Khemmie-Ray/Loopstudios-landing-page.git",
-        "livelink": "https://khemmie-ray.github.io/Loopstudios-landing-page/"
-    },
-    {
-        "id": 6,
         "img": "./Pharmease.png",
         "title": "PharmEase Application",
         "description": "A cross-functional team capstone project, that seeks to help Pharmacists in West Africa automate their work process. Built with React, Bootstrap, CSS and Fakers.js",
         "link": "https://github.com/Khemmie-Ray/PharmEase-application.git",
-        "livelink": "https://pharmease-application.netlify.app/"
+        "livelink": "https://pharm-ease-application-lime.vercel.app/"
     }
 ]
